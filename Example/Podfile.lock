@@ -1,0 +1,39 @@
+PODS:
+  - FlipViewController (0.1.0):
+    - FlipViewController/Core (= 0.1.0)
+    - FlipViewController/Indicator (= 0.1.0)
+  - FlipViewController/Core (0.1.0)
+  - FlipViewController/Indicator (0.1.0)
+  - FlipViewController/LazyScroll (0.1.0):
+    - LazyScroll
+  - LazyScroll (1.0.1):
+    - TMUtils (~> 1.0.1)
+  - LookinServer (1.1.7):
+    - LookinServer/Core (= 1.1.7)
+  - LookinServer/Core (1.1.7)
+  - TMUtils (1.0.1)
+
+DEPENDENCIES:
+  - FlipViewController (from `../`)
+  - FlipViewController/LazyScroll (from `../`)
+  - LookinServer
+
+SPEC REPOS:
+  trunk:
+    - LazyScroll
+    - LookinServer
+    - TMUtils
+
+EXTERNAL SOURCES:
+  FlipViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FlipViewController: 2bec72ec5669ba19bb05979d553119189c123e34
+  LazyScroll: 23f4550711452ad4306a30fc75106a7a5556a882
+  LookinServer: 4ce0469b066871525611d009d8d16a7a50c23491
+  TMUtils: 8af8e4695b6e4086d0545ecd7cd025556515ab42
+
+PODFILE CHECKSUM: cdcb35f86a08fe80c8793962dfc3e7a9552a1853
+
+COCOAPODS: 1.12.1

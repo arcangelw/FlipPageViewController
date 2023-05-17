@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '12.0'
+
+target 'FlipViewController_Example' do
+  pod 'FlipViewController', :path => '../'
+  pod 'FlipViewController/LazyScroll', :path => '../'
+  pod 'LookinServer', :configurations => ['Debug']
+  target 'FlipViewController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
